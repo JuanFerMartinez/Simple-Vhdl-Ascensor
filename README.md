@@ -10,7 +10,7 @@ El sistema no controla motores reales; únicamente simula la lógica de un ascen
 - Indicación del piso actual en displays de 7 segmentos.
 - Simulación de apertura y cierre de puertas.
 - Control de estados de manera secuencial sin motores ni actuadores físicos.
-- Implementado en protoboard usando entradas y salidas digitales.
+- Implementado en protoboard.
 
 ## Estructura
 
@@ -19,7 +19,7 @@ El proyecto incluye los siguientes archivos principales en VHDL:
 - `ascensor_main.vhd`: módulo principal que coordina el sistema.
 - `puerta.vhd`: control de apertura y cierre de puertas.
 - `mostrar_piso.vhd`: visualización del piso actual en displays de 7 segmentos.
-- `anomalias.vhd`: manejo de situaciones anómalas (como tiempo de espera excesivo).
+- `anomalias.vhd`: manejo de situaciones anómalias.
 - Otros módulos auxiliares.
 
 ## Requisitos
