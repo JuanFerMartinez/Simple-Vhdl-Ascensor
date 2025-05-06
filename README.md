@@ -1,4 +1,4 @@
-# Simple VHDL Elevator
+# Simple VHDL Ascensor
 
 Este proyecto implementa un sistema de ascensor básico en VHDL, diseñado para funcionar de manera simple en una protoboard utilizando una FPGA Cyclone III (DE0) u otra compatible.
 El sistema no controla motores reales; únicamente simula la lógica de un ascensor mediante botones, LEDs y displays de 7 segmentos.
